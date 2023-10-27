@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ultra', serif; */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+main .main-image{
+    width: 50%;
+}
+main section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.username-email-form{
+    display: none;
+}
+.forgot-password{
+    display: none;
+}
+.log-in{
+    display: none;
+}
+.sign-up{
+    display: none;
+}
+main .image-logo{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+}
+
+@media (max-width: 1024px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .username-email-form{
+        display: flex;
+    }
+    .forgot-password{
+        display: flex;
+    }
+    .log-in{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 0.5rem;
+        background-color: #003D61;
+    }
+    .log-in a{
+        color: white;
+        text-decoration: none;  
+    }
+    .sign-up{
+        display: flex;
+    }
+    .username{
+        display: none;
+    }
+    .email{
+        display: none;
+    }
+    .checkbox{
+        display: none;
+    }
+    .account-p{
+        display: none;
+    }
+}
